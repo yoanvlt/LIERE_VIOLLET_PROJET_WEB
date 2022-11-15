@@ -3,11 +3,26 @@
     padding-left: 0;
     max-width: 100%;
 }
-
+.coupure{
+    padding-right: 0;
+    padding-left: 0;
+    width: 2px;
+    background-color: white;
+    overflow: hidden;
+    height: 60% ;
+    margin-left: 33%;
+    margin-top: 1.4%;
+}
+.logo-barre{
+    position: absolute;
+    top : 1% ;
+    left : 1% ;
+    max-width: 6%; 
+}
 .color-barre {
     background-color: #000b28 ;
     overflow: hidden ;
-    height: 90px ;
+    height: 8rem ;
 }
 
 * {
