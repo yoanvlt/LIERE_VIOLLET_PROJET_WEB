@@ -10,6 +10,13 @@
     height: 90px ;
 }
 
+.logo-barre {
+    position: absolute;
+    top : 1% ;
+    left : 1% ;
+    max-width: 6%; 
+}
+
 * {
     margin: 0;
     padding: 0;
