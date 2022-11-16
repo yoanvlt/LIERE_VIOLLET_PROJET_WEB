@@ -20,19 +20,19 @@
 
 .titre-rocket{
     color : white ;
-    position: absolute;
-    top : 0% ;
-    left : 9% ;
-    font-size: 250% ;
+    position: fixed;
+    top : 0px ;
+    left : 110px ;
+    font-size: 2.7rem ;
     font-family: Verdana, sans-serif;  
 }
 
 .titre-league {
     color : white ;
-    position : absolute ;
-    top : 6% ;
-    left : 9% ;
-    font-size : 250% ;
+    position : fixed ;
+    top : 35px ;
+    left : 108px ;
+    font-size : 2.7rem ;
     font-family : Verdana, sans-serif;
 }
 
