@@ -36,39 +36,43 @@
 }
 
 .bouton-competitions {
-    color : white ;
-    position : absolute ;
-    top : 5% ;
-    left :  30% ;
-    font-size: 115% ;
+    display : block;
+    position : fixed ;
+    top : 30px ;
+    left  : 375px ;
+    color : rgba(255,255,255,0.822) ;
     font-family : Arial,sans-serif ;
+    font-size: 1.15rem
 }
 
 .bouton-top16 {
-    color : white ;
-    position : absolute ;
-    top : 5% ;
-    left : 45% ;
-    font-size: 115% ;
-    font-family : Arial,sans-serif ;
+    display : block ;
+    position : fixed ;
+    top : 30px ;
+    left : 525px ;
+    color : rgba(255,255,255,0.822) ;
+    font-family : Arial, sans-serif ;
+    font-size: 1.15rem
 }
 
 .bouton-clips {
-    color : white ;
-    position : absolute ;
-    top : 5% ;
-    left : 60% ;
-    font-size : 115% ;
+    display: block;
+    position : fixed ;
+    top : 30px ;
+    left : 700px ;
+    color : rgba(255,255,255,0.822) ;
     font-family : Arial,sans-serif ;
+    font-size : 1.15rem ;
 }
 
 .bouton-skins {
-    color : white ;
-    position : absolute ;
-    top : 5% ;
-    left : 70% ;
-    font-size : 115% ;
+    display: block;
+    position : fixed ;
+    top : 30px ;
+    left : 850px ;
+    color : rgba(255,255,255,0.822) ;
     font-family : Arial,sans-serif ;
+    font-size : 1.15rem ;
 }
 
 * {
