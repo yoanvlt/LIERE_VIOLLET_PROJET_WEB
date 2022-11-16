@@ -17,12 +17,58 @@
     max-width: 6%; 
 }
 
-.titre-barre{
+.titre-rocket{
     color : white ;
     position: absolute;
-    top : 1% ;
+    top : 0% ;
     left : 9% ;
-    font-size: 190% ;
+    font-size: 250% ;
+    font-family: Verdana, sans-serif;  
+}
+
+.titre-league {
+    color : white ;
+    position : absolute ;
+    top : 6% ;
+    left : 9% ;
+    font-size : 250% ;
+    font-family : Verdana, sans-serif;
+}
+
+.bouton-competitions {
+    color : white ;
+    position : absolute ;
+    top : 5% ;
+    left :  30% ;
+    font-size: 115% ;
+    font-family : Arial,sans-serif ;
+}
+
+.bouton-top16 {
+    color : white ;
+    position : absolute ;
+    top : 5% ;
+    left : 45% ;
+    font-size: 115% ;
+    font-family : Arial,sans-serif ;
+}
+
+.bouton-clips {
+    color : white ;
+    position : absolute ;
+    top : 5% ;
+    left : 60% ;
+    font-size : 115% ;
+    font-family : Arial,sans-serif ;
+}
+
+.bouton-skins {
+    color : white ;
+    position : absolute ;
+    top : 5% ;
+    left : 70% ;
+    font-size : 115% ;
+    font-family : Arial,sans-serif ;
 }
 
 * {
