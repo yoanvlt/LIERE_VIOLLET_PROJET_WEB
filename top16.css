@@ -1,7 +1,7 @@
 .barre {
-    padding-right: 0 ;
-    padding-left: 0 ;
-    max-width: 100% ;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 100%;
 }
 
 .color-barre {
@@ -28,7 +28,7 @@
 }
 
 .titre-rocket{
-    color : white ;
+    color : white;
     position: fixed;
     top : 0px ;
     left : 110px ;
@@ -158,7 +158,6 @@
     left : 835px ;
 }
 
-
 a {
     text-decoration : None ;
 }
@@ -171,4 +170,3 @@ a:hover {
     margin : 0 ;
     padding : 0 ;
 }
-
