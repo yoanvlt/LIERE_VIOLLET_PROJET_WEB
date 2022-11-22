@@ -2,16 +2,16 @@
     padding-right: 0 ;
     padding-left: 0 ;
     max-width: 100% ;
-}
-
-.color-barre {
     background-color: #000b28 ;
-    overflow: hidden ;
     height: 90px ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: start;
 }
 
 .logo-barre {
-    position: fixed;
     top : 1px ;
     left : 1px ;
     width: 86px ; 
@@ -20,7 +20,6 @@
 
 .separateur {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
     width : 1px ;
     height : 60px ;
     top : 15px ;
@@ -29,7 +28,6 @@
 
 .titre-rocket{
     color : white ;
-    position: fixed;
     top : 0px ;
     left : 110px ;
     font-size: 2.7rem ;
@@ -38,7 +36,6 @@
 
 .titre-league {
     color : white ;
-    position : fixed ;
     top : 35px ;
     left : 108px ;
     font-size : 2.7rem ;
@@ -47,7 +44,6 @@
 
 .separateur1 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
     width : 1px ;
     height : 60px ;
     top : 15px ;
@@ -56,7 +52,6 @@
 
 .bouton-competitions {
     display: block ;
-    position: fixed ;
     height: 90px ;
     width: 160px ;
     left : 334px ;
@@ -66,14 +61,12 @@
 }
 
 .texteb1 {
-    position: fixed ;
     top : 30px ;
     left : 360px ;
 }
 
 .separateur2 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
     width : 1px ;
     height : 60px ;
     top : 15px ;
@@ -82,7 +75,6 @@
 
 .bouton-top16 {
     display : block ;
-    position : fixed ;
     height: 90px ;
     width: 158px ;
     left : 496px ;
@@ -92,14 +84,12 @@
 }
 
 .texteb2 {
-    position : fixed ;
     top : 30px ;
     left : 510px ;
 }
 
 .separateur3 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
     width : 1px ;
     height : 60px ;
     top : 15px ;
@@ -108,7 +98,6 @@
 
 .bouton-clips {
     display : block ;
-    position : fixed ;
     height : 90px ;
     width: 93px ;
     left : 656px ;
@@ -118,14 +107,12 @@
 }
 
 .texteb3 {
-    position : fixed ;
     top : 30px ;
     left : 680px ;
 }
 
 .separateur4 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
     width : 1px ;
     height : 60px ;
     top : 15px ;
@@ -134,7 +121,6 @@
 
 .bouton-skins {
     display : block ;
-    position : fixed ;
     height: 90px ;
     width: 85px;
     left : 750px ;
@@ -144,14 +130,12 @@
 }
 
 .texteb4 {
-    position : fixed ;
     top : 30px ;
     left : 770px ;
 }
 
 .separateur5 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
     width : 1px ;
     height : 60px ;
     top : 15px ;
