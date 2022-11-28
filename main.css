@@ -42,16 +42,15 @@
     font-family: Verdana, sans-serif;
 }
 
-.bouton-competitions {
-    display: block ;
-    position: fixed ;
-    top : 15px ;
-    left : 220px ;
-    color : rgba(255,255,255,0.822) ;
-    font-family : Arial,sans-serif ;
-    font-size: 13px ;
+.bouton-top16 {
+   margin-left: 100px;
 }
-
+.bouton-clips{
+    margin-left: 240px;
+}
+.bouton-skins{
+    margin-left: 320px;
+}
 .bouton {
     display : block ;
     position : fixed ;
@@ -61,6 +60,7 @@
     font-family : Arial,sans-serif ;
     font-size : 13px ;
 }
+
 
 a {
     text-decoration : None ;
