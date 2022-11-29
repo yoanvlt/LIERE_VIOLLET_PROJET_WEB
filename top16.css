@@ -10,50 +10,46 @@
     top : 0 ;
     left : 0 ;
     width: 100% ;
-    height: 50px ;
     background-color : #000b28 ;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    align-items: center;
 }
 
 .logo-barre {
-    position :fixed ;
-    top : 5px ;
-    left : 5px ;
     width: 40px ;
     height: 40px ;
 }
 
 .separateur {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
-    top : 10px ;
-    left : 60px ;
     height: 30px ;
     width: 1px ;
+    margin-left: 10px;
 }
 
-.titre-rocket {
+.logo-title {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px;
     color: white ;
-    position: fixed ;
-    top : 2px ;
-    left : 71px ;
+    text-transform: uppercase;
     font-size: 20px ;
     font-family: Verdana, sans-serif;
 }
 
-.titre-league {
-    color : white ;
-    position : fixed ;
-    top : 20px ;
-    left : 70px ;
-    font-size: 20px ;
-    font-family: Verdana, sans-serif;
+.logo-title > span:nth-child(1){
+    position: relative;
+    bottom: -4px;
+}
+
+.logo-title > span:nth-child(2){
+    position: relative;
+    top: -4px;
 }
 
 .bouton-competitions {
-    display : block ;
-    position : fixed ;
-    top : 15px ;
-    left : 190px ;
     color : rgba(255,255,255,0.822) ;
     text-transform: uppercase;
     font-family : 'Bourgeois',sans-serif ;
@@ -62,18 +58,12 @@
 
 .separateur1 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
-    top : 10px ;
-    left : 303px ;
     height: 30px ;
     width: 1px ;
+
 }
 
 .bouton-top16 {
-    display : block ;
-    position : fixed ;
-    top : 15px ;
-    left : 304px ;
     color : rgba(255,255,255,0.822) ;
     text-transform: uppercase;
     font-family : 'Bourgeois',sans-serif ;
@@ -82,18 +72,11 @@
 
 .separateur2 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
-    top : 10px ;
-    left : 421px ;
     height: 30px ;
     width: 1px ;
 }
 
 .bouton-clips {
-    display : block ;
-    position : fixed ;
-    top : 15px ;
-    left : 422px ;
     color : rgba(255,255,255,0.822) ;
     font-family : 'Bourgeois',sans-serif ;
     text-transform: uppercase;
@@ -102,18 +85,11 @@
 
 .separateur3 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
-    top : 10px ;
-    left : 471px ;
     height: 30px ;
     width: 1px ;
 }
 
 .bouton-skins {
-    display : block ;
-    position : fixed ;
-    top : 15px ;
-    left : 472px ;
     color : rgba(255,255,255,0.822) ;
     font-family : 'Bourgeois',sans-serif ;
     text-transform: uppercase;
@@ -122,9 +98,12 @@
 
 .separateur4 {
     background-color : rgba(255,255,255,0.822) ;
-    position : fixed ;
-    top : 10px ;
-    left : 523px ;
+    height: 30px ;
+    width: 1px ;
+}
+
+.separateur5 {
+    background-color : rgba(255,255,255,0.822) ;
     height: 30px ;
     width: 1px ;
 }
@@ -140,4 +119,10 @@ a:hover {
 * {
     margin : 0 ;
     padding : 0 ;
+}
+
+.arriere-plan {
+    position : absolute ;
+    top : 50px ;
+    left : 0 ;
 }
