@@ -42,25 +42,81 @@
     font-family: Verdana, sans-serif;
 }
 
-.bouton-top16 {
-   margin-left: 100px;
-}
-.bouton-clips{
-    margin-left: 240px;
-}
-.bouton-skins{
-    margin-left: 320px;
-}
-.bouton {
+.bouton-competitions {
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 308px ;
+    left : 250px ;
     color : rgba(255,255,255,0.822) ;
     font-family : Arial,sans-serif ;
     font-size : 13px ;
 }
 
+.separateur1 {
+    background-color : rgba(255,255,255,0.822) ;
+    position : fixed ;
+    top : 10px ;
+    left : 347px ;
+    height: 30px ;
+    width: 1px ;
+}
+
+.bouton-top16 {
+    display : block ;
+    position : fixed ;
+    top : 15px ;
+    left : 348px ;
+    color : rgba(255,255,255,0.822) ;
+    font-family : Arial,sans-serif ;
+    font-size : 13px ;
+}
+
+.separateur2 {
+    background-color : rgba(255,255,255,0.822) ;
+    position : fixed ;
+    top : 10px ;
+    left : 457px ;
+    height: 30px ;
+    width: 1px ;
+}
+
+.bouton-clips {
+    display : block ;
+    position : fixed ;
+    top : 15px ;
+    left : 458px ;
+    color : rgba(255,255,255,0.822) ;
+    font-family : Arial,sans-serif ;
+    font-size : 13px ;
+}
+
+.separateur3 {
+    background-color : rgba(255,255,255,0.822) ;
+    position : fixed ;
+    top : 10px ;
+    left : 501px ;
+    height: 30px ;
+    width: 1px ;
+}
+
+.bouton-skins {
+    display : block ;
+    position : fixed ;
+    top : 15px ;
+    left : 502px ;
+    color : rgba(255,255,255,0.822) ;
+    font-family : Arial,sans-serif ;
+    font-size : 13px ;
+}
+
+.separateur4 {
+    background-color : rgba(255,255,255,0.822) ;
+    position : fixed ;
+    top : 10px ;
+    left : 549px ;
+    height: 30px ;
+    width: 1px ;
+}
 
 a {
     text-decoration : None ;
