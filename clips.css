@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Geneva';
     src: url(police/geneva__.ttf);
+    font-family: 'Bourgeois';
+    src: url(police/Bourgeois\ W00\ Medium.ttf);
 }
 
 .barre {
@@ -51,17 +53,18 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 200px ;
+    left : 190px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : 'Geneva',sans-serif ;
-    font-size : 13px ;
+    text-transform: uppercase;
+    font-family : 'Bourgeois',sans-serif ;
+    font-size : 1rem ;
 }
 
 .separateur1 {
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 297px ;
+    left : 303px ;
     height: 30px ;
     width: 1px ;
 }
@@ -70,17 +73,18 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 298px ;
+    left : 304px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : Arial,sans-serif ;
-    font-size : 13px ;
+    text-transform: uppercase;
+    font-family : 'Bourgeois',sans-serif ;
+    font-size : 1rem;
 }
 
 .separateur2 {
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 407px ;
+    left : 421px ;
     height: 30px ;
     width: 1px ;
 }
@@ -89,17 +93,18 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 408px ;
+    left : 422px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : Arial,sans-serif ;
-    font-size : 13px ;
+    font-family : 'Bourgeois',sans-serif ;
+    text-transform: uppercase;
+    font-size : 1rem ;
 }
 
 .separateur3 {
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 451px ;
+    left : 471px ;
     height: 30px ;
     width: 1px ;
 }
@@ -108,17 +113,18 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 452px ;
+    left : 472px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : Arial,sans-serif ;
-    font-size : 13px ;
+    font-family : 'Bourgeois',sans-serif ;
+    text-transform: uppercase;
+    font-size : 1rem ;
 }
 
 .separateur4 {
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 499px ;
+    left : 523px ;
     height: 30px ;
     width: 1px ;
 }

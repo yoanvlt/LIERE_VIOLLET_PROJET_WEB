@@ -53,7 +53,7 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 200px ;
+    left : 190px ;
     color : rgba(255,255,255,0.822) ;
     text-transform: uppercase;
     font-family : 'Bourgeois',sans-serif ;
@@ -64,7 +64,7 @@
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 297px ;
+    left : 303px ;
     height: 30px ;
     width: 1px ;
 }
@@ -73,7 +73,7 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 298px ;
+    left : 304px ;
     color : rgba(255,255,255,0.822) ;
     text-transform: uppercase;
     font-family : 'Bourgeois',sans-serif ;
@@ -84,7 +84,7 @@
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 407px ;
+    left : 421px ;
     height: 30px ;
     width: 1px ;
 }
@@ -93,7 +93,7 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 408px ;
+    left : 422px ;
     color : rgba(255,255,255,0.822) ;
     font-family : 'Bourgeois',sans-serif ;
     text-transform: uppercase;
@@ -104,7 +104,7 @@
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 451px ;
+    left : 471px ;
     height: 30px ;
     width: 1px ;
 }
@@ -113,7 +113,7 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 452px ;
+    left : 472px ;
     color : rgba(255,255,255,0.822) ;
     font-family : 'Bourgeois',sans-serif ;
     text-transform: uppercase;
@@ -124,7 +124,7 @@
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 499px ;
+    left : 523px ;
     height: 30px ;
     width: 1px ;
 }
@@ -140,4 +140,10 @@ a:hover {
 * {
     margin : 0 ;
     padding : 0 ;
+}
+
+.arriere-plan {
+    position : absolute ;
+    top : 50px ;
+    left : 0 ;
 }
