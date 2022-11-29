@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Geneva';
+    src: url(police/geneva__.ttf);
+}
+
 .barre {
     position : fixed ;
     top : 0 ;
@@ -46,9 +51,9 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 250px ;
+    left : 200px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : Arial,sans-serif ;
+    font-family : 'Geneva',sans-serif ;
     font-size : 13px ;
 }
 
@@ -56,7 +61,7 @@
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 347px ;
+    left : 297px ;
     height: 30px ;
     width: 1px ;
 }
@@ -65,7 +70,7 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 348px ;
+    left : 298px ;
     color : rgba(255,255,255,0.822) ;
     font-family : Arial,sans-serif ;
     font-size : 13px ;
@@ -75,7 +80,7 @@
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 457px ;
+    left : 407px ;
     height: 30px ;
     width: 1px ;
 }
@@ -84,7 +89,7 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 458px ;
+    left : 408px ;
     color : rgba(255,255,255,0.822) ;
     font-family : Arial,sans-serif ;
     font-size : 13px ;
@@ -94,7 +99,7 @@
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 501px ;
+    left : 451px ;
     height: 30px ;
     width: 1px ;
 }
@@ -103,7 +108,7 @@
     display : block ;
     position : fixed ;
     top : 15px ;
-    left : 502px ;
+    left : 452px ;
     color : rgba(255,255,255,0.822) ;
     font-family : Arial,sans-serif ;
     font-size : 13px ;
@@ -113,7 +118,7 @@
     background-color : rgba(255,255,255,0.822) ;
     position : fixed ;
     top : 10px ;
-    left : 549px ;
+    left : 499px ;
     height: 30px ;
     width: 1px ;
 }
