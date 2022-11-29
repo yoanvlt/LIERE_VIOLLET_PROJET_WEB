@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Geneva';
     src: url(police/geneva__.ttf);
+    font-family: 'Bourgeois';
+    src: url(police/Bourgeois\ W00\ Medium.ttf);
 }
 
 .barre {
@@ -53,8 +55,9 @@
     top : 15px ;
     left : 200px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : 'Geneva',sans-serif ;
-    font-size : 13px ;
+    text-transform: uppercase;
+    font-family : 'Bourgeois',sans-serif ;
+    font-size : 1rem ;
 }
 
 .separateur1 {
@@ -72,8 +75,9 @@
     top : 15px ;
     left : 298px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : Arial,sans-serif ;
-    font-size : 13px ;
+    text-transform: uppercase;
+    font-family : 'Bourgeois',sans-serif ;
+    font-size : 1rem;
 }
 
 .separateur2 {
@@ -91,8 +95,9 @@
     top : 15px ;
     left : 408px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : Arial,sans-serif ;
-    font-size : 13px ;
+    font-family : 'Bourgeois',sans-serif ;
+    text-transform: uppercase;
+    font-size : 1rem ;
 }
 
 .separateur3 {
@@ -110,8 +115,9 @@
     top : 15px ;
     left : 452px ;
     color : rgba(255,255,255,0.822) ;
-    font-family : Arial,sans-serif ;
-    font-size : 13px ;
+    font-family : 'Bourgeois',sans-serif ;
+    text-transform: uppercase;
+    font-size : 1rem ;
 }
 
 .separateur4 {
