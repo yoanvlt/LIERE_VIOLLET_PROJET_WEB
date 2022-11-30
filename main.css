@@ -10,6 +10,7 @@
     top : 0 ;
     left : 0 ;
     width: 100% ;
+    z-index: 99 ;
     background-color : #000b28 ;
     display: flex;
     justify-content: flex-start;
@@ -89,9 +90,12 @@ a:hover {
 }
 
 .arriere-plan {
-    position : absolute ;
-    top : 50px ;
-    left : 0 ;
+    background-image: url(img/background.webp) ;
+    background-size : cover ;
+    background-repeat : no-repeat ;
+    width : 1224.5px ;
+    height : 700px ;
+    filter: blur(3px) ;
 }
 
 * {
