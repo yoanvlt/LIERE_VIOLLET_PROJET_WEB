@@ -106,10 +106,20 @@ a:hover {
     z-index: 0 ;
     display : flex ;
     justify-content : center ;
-    align-items : center ;
+    align-items: center;
+    flex-direction: column;
 }
 
 .logorlcs {  
+    margin-bottom: 10%;
     width: 27% ;
-        
+}
+
+.bouton2-competitions {
+    background-image: url(img/format.webp);
+    margin-bottom: 2%;
+    border: 1px solid black;
+    z-index: 20;
+    height: 10px;
+    width: 10px;
 }
