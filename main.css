@@ -123,3 +123,6 @@ a:hover {
     width: 27% ;
 }
 
+html, body {
+    overflow: hidden;
+  }
