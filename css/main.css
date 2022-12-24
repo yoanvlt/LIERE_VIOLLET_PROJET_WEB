@@ -4,9 +4,9 @@ body {
 
 @font-face {
     font-family: 'Geneva';
-    src: url(police/geneva__.ttf);
+    src: url(../police/geneva__.ttf);
     font-family: 'Bourgeois';
-    src: url(police/Bourgeois\ W00\ Medium.ttf);
+    src: url(../police/Bourgeois\ W00\ Medium.ttf);
 }
 
 .barre {
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .arriere-plan {
-    background-image: url(img/Champions-Field1920.webp);
+    background-image: url(../img/Champions-Field1920.webp);
     background: cover ;
     background-size :cover ;
     height: 100vh ;

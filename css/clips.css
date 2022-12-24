@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Geneva';
-    src: url(police/geneva__.ttf);
+    src: url(../police/geneva__.ttf);
     font-family: 'Bourgeois';
-    src: url(police/Bourgeois\ W00\ Medium.ttf);
+    src: url(../police/Bourgeois\ W00\ Medium.ttf);
 }
 
 .barre {

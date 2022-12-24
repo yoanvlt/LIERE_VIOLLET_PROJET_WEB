@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Geneva';
-    src: url(police/geneva__.ttf);
+    src: url(../police/geneva__.ttf);
     font-family: 'Bourgeois';
-    src: url(police/Bourgeois\ W00\ Medium.ttf);
+    src: url(../police/Bourgeois\ W00\ Medium.ttf);
 }
 
 .barre {
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .arriere-plan {
-    background-image: url(./img/Fondtop.jpg);
+    background-image: url(../img/Fondtop.jpg);
     width: 100%;
     height: 1000px;
     padding-top: 6.5%;
