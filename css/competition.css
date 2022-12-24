@@ -110,14 +110,54 @@ a:hover {
     text-align: center;
 }
 
+ul li::before {
+    content: "•   " ;
+    color : white ;
+}    
+
 li {
     text-align: start;
     padding-left: 2%;
     padding-top: 2%;
     color: white;
     font-family : 'Bourgeois',sans-serif ;
+    font-size: 1.4vw;
+}
+
+.title2{
+    color: white;
+    padding-top: 5%;
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-family : 'Bourgeois',sans-serif ;
+    font-size: 2.2vw;
+    text-align: center;
+}
+
+.title-split1{
+    color: white;
+    padding-top: 3%;
+    padding-left: 2%;
+    text-transform: uppercase;
+    font-family : 'Bourgeois',sans-serif ;
+    font-size: 2vw;
+    text-align: start;
+}
+
+.btn{
+    color: white;
+    border-radius: 2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.6s;
+}
+
+.btn:not(:hover){
+    transition: 0.6s;
 }
 
 * {
