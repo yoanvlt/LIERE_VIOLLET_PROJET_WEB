@@ -103,7 +103,7 @@ a:hover {
 
 .title{
     color: white;
-    padding-top: 2%;
+    padding-top: 4%;
     text-transform: uppercase;
     font-family : 'Bourgeois',sans-serif ;
     font-size: 2.2vw;
@@ -133,7 +133,7 @@ li {
     text-align: center;
 }
 
-.title-split1{
+.title-split{
     color: white;
     padding-top: 3%;
     padding-left: 2%;
