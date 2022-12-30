@@ -115,6 +115,14 @@ a:hover {
     text-align: center;
 }
 
+.ctn-img {
+    padding-top : 3% ;
+}
+
+.img {
+    width : 100% ;
+}
+
 * {
     margin : 0 ;
     padding : 0 ;
