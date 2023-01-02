@@ -92,8 +92,8 @@ a:hover {
 .arriere-plan {
     background-color: #000b28;
     width: 100%;
-    height: 2000px;
-    padding-top: 6.5%;
+    height: auto;
+    padding-top: 3%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -159,6 +159,10 @@ li {
 
 .btn:not(:hover){
     transition: 0.6s;
+}
+
+footer {
+    padding-top : 3% ;
 }
 
 * {
