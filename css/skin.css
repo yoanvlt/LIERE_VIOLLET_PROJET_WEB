@@ -89,12 +89,64 @@ a:hover {
 }
 
 .arriere-plan {
-    position : absolute ;
-    top : 50px ;
-    left : 0 ;
+    background-color : #000b28 ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    vertical-align: middle;
+    z-index : 1 ;
+}
+
+.title{
+    color: white;
+    padding-top: 8%;
+    text-transform: uppercase;
+    font-family : 'Bourgeois',sans-serif ;
+    font-size: 2.2vw;
+    text-align: center;
+}
+
+.carrousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carrousel-item {
+    margin-top: 3%;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100%;
+}
+ 
+.carrousel-item img {
+    width: 60%;
+    height: auto;
+}
+
+footer {
+    padding-top: 3%;
 }
 
 * {
     margin : 0 ;
     padding : 0 ;
 }
+
+::-webkit-scrollbar {
+    width: 8px; /* largeur de la barre de défilement */
+    background-color: #000b28; /* couleur de fond de la barre de défilement */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #555; /* couleur de la poignée de défilement */
+    border-radius: 10px; /* arrondi de la poignée de défilement */
+    min-height: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* couleur de la poignée de défilement au survol */
+  }
