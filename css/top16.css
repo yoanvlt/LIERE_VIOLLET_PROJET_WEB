@@ -126,10 +126,13 @@ a:hover {
 }  
 
 .logo{
-    width: 7%;
+    width: 5%;
 }
 
 .btn{
+    font-size: 80px;
+    padding: 10px 20px;
+    line-height: 150px;
     color: white;
     border-radius: 2rem;
 }
@@ -137,6 +140,22 @@ a:hover {
 .top{
     padding-left: 11.50%;
     padding-right: 11.50%;
+}
+
+.btn1{
+    filter: invert(100%)
+}
+.btn6{
+    filter: invert(100%)
+}
+.btn7{
+    filter: invert(100%)
+}
+.btn10{
+    filter: invert(100%)
+}
+.btn13{
+    filter: invert(100%)
 }
 
 .btn:hover{
