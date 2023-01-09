@@ -47,18 +47,3 @@ footer {
     margin : 0 ;
     padding : 0 ;
 }
-
-::-webkit-scrollbar {
-    width: 8px; /* largeur de la barre de défilement */
-    background-color: #000b28; /* couleur de fond de la barre de défilement */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #555; /* couleur de la poignée de défilement */
-    border-radius: 10px; /* arrondi de la poignée de défilement */
-    min-height: 20px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #888; /* couleur de la poignée de défilement au survol */
-  }
