@@ -75,6 +75,11 @@
     src: url(../police/Bourgeois\ W00\ Medium.ttf);
 }
 
+.bouton-competitions:hover{
+    background-color: blue;
+    height: 4px;
+}
+
 a {
     text-decoration : None ;
 }
