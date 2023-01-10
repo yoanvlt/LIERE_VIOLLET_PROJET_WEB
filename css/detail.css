@@ -7,28 +7,230 @@
 
 
 .arriere-plan{
+    background-color : #000b28 ;
     width: 100%;
-    height: 1500px;
-    background-color: #000b28;
-    display:flex;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    vertical-align: middle;
+    z-index : 1 ;
+}
+
+.logo-1 {
+    padding-top: 8%;
+    width: 40%;
+}
+
+.container-equipe{
+    width: 100%;
+    height: 50vh;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.title{
-    color: white;
-    padding-top: 3.5%;
-    font-family : 'Bourgeois',sans-serif ;
-    text-transform: uppercase;
-    font-size: 20px;
+.player {
+    border: 2px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 2rem;
+    margin: 0 6%;
 }
 
-.karmine{
-    height: 40%;
+.player1{
+    background: url("../img/Karmine/itachi.jpg") 30% / cover ;
 }
 
-.background{
-    padding-top: 7.5%;
+.player2{
+    background: url("../img/Karmine/vatira.jpg") 30% / cover ;
 }
+
+.player3{
+    background: url("../img/Karmine/exotiik.jpg") 30% / cover ;
+}
+
+.player4{
+    background: url("../img/Solary/kaydop.jpg") 30% / cover;
+}
+
+.player5{
+    background: url("../img/Solary/chaussette.jpg") 30% / cover;
+}
+
+.player6{
+    background: url("../img/Solary/fairy.jpg") 30% / cover;
+}
+
+.player7{
+    background: url("../img/BDS/extra.jpg") 50% / cover;
+}
+
+.player8{
+    background: url("../img/BDS/seiko.jpg") 30% / cover;
+}
+
+.player9{
+    background: url("../img/BDS/monkey.jpg") 30% / cover;
+}
+
+.player10{
+    background: url("../img/Vitality/alpha.jpg") 30% / cover;
+}
+
+.player11{
+    background: url("../img/Vitality/rado.jpg") 30% / cover;
+}
+
+.player12{
+    background: url("../img/Vitality/saizen.jpg") 30% / cover;
+}
+
+.player13{
+    background: url("../img/Moist/aztral.jpg") 80% / cover;
+}
+
+.player14{
+    background: url("../img/Moist/joyo.jpg") 30% / cover;
+}
+
+.player15{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player16{
+    background: url("../img/Oxygen/joreuz.jpg") 30% / cover;
+}
+
+.player17{
+    background: url("../img/Oxygen/archie.jpg") 70% / cover;
+}
+
+.player18{
+    background: url("../img/Oxygen/rise.jpg") 30% / cover;
+}
+
+.player19{
+    background: url("../img/Liquid/atow.jpg") 30% / cover;
+}
+
+.player20{
+    background: url("../img/Liquid/acro.jpg") 30% / cover;
+}
+
+.player21{
+    background: url("../img/Liquid/oski.jpg") 30% / cover;
+}
+
+.player22{
+    background: url("../img/quadrant/relatingwave.jpg") 30% / cover;
+}
+
+.player23{
+    background: url("../img/quadrant/eekso.jpg") 30% / cover;
+}
+
+.player24{
+    background: url("../img/quadrant/kash.jpg") 30% / cover;
+}
+
+.player25{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player26{
+    background: url("../img/g1/marc.jpg") 30% / cover;
+}
+
+.player27{
+    background: url("../img/g1/atomik.jpg") 30% / cover;
+}
+
+.player28{
+    background: url("../img/eg/catalysm.jpg") 30% / cover;
+}
+
+.player29{
+    background: url("../img/eg/ivn.jpg") 30% / cover;
+}
+
+.player30{
+    background: url("../img/eg/tox.jpg") 30% / cover;
+}
+
+.player31{
+    background: url("../img/tundra/kassio.jpg") 30% / cover;
+}
+
+.player32{
+    background: url("../img/tundra/reazers.png") 30% / cover;
+}
+
+.player33{
+    background: url("../img/tundra/rizex.jpg") 30% / cover;
+}
+
+.player34{
+    background: url("../img/aogiri/oscillon.jpg") 30% / cover;
+}
+
+.player35{
+    background: url("../img/aogiri/vk.jpg") 30% / cover;
+}
+
+.player36{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player37{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player38{
+    background: url("../img/monkeys/arju.png") 30% / cover;
+}
+
+.player39{
+    background: url("../img/monkeys/mittaen.jpg") 30% / cover;
+}
+
+.player40{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player41{
+    background: url("../img/williams/breezi.jpg") 30% / cover;
+}
+
+.player42{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player43{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player44{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player45{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player46{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player47{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
+.player48{
+    background: url("../img/Moist/juicy.svg") 30% / cover;
+}
+
 
 * {
     margin : 0 ;
