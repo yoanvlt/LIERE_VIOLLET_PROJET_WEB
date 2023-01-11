@@ -31,8 +31,13 @@ a:hover {
     padding-top: 4%;
     text-transform: uppercase;
     font-family : 'Bourgeois',sans-serif ;
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
+}
+
+.video{
+    padding-top: 50px;
+    width: 70%;
 }
 
 * {
