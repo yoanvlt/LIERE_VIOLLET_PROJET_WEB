@@ -19,8 +19,7 @@
 }
 
 .logo-1 {
-    padding-top: 8%;
-    width: 40%;
+    padding-top: 6%;
 }
 
 .container-equipe{
@@ -29,6 +28,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title {
+    text-align: center;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 4%;
+    color: white;
+    font-family : 'Bourgeois',sans-serif ;
+    font-size: 20px;
 }
 
 .player {
